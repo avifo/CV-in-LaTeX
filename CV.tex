@@ -1,0 +1,108 @@
+\documentclass{article}
+
+\usepackage{titlesec}
+\usepackage{titling}
+\usepackage{enumitem}
+\usepackage{ragged2e}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{multicol}
+\usepackage{parskip}
+
+
+\author{Ali Al Temimi}
+
+
+\titleformat{\section}
+{\bfseries\huge}
+{}
+{0em}
+{}[\titlerule]
+
+\titleformat{\subsection}
+{\bfseries\large}
+{}
+{0em}
+{}
+
+\titleformat{\subsubsection}
+{\bfseries\raggedleft}
+{}
+{0em}
+{}
+
+
+\pagenumbering{gobble}
+\renewcommand{\maketitle}{
+\begin{center}
+    {\huge\bfseries
+    \theauthor}
+    {\Large \\ali@altemimi.xyz $\bullet$ 07930408174}
+    \vspace{-4em}
+\end{center}
+}
+
+\begin{document}
+    \maketitle
+\section{}
+Computer Science graduate from the University of Hull, with an interest in Software Development, Electronics and Fullstack Web development. 
+    \begin{multicols}{2}
+        \section{Education}
+        \subsection{University of Hull (September 2018 - June 2021) Expected Grade - 2.2}
+        \subsubsection{BSc Computer Science}
+        \begin{description}
+            \item[$\bullet$]C\#, C++, Python
+            \item[$\bullet$]Artificial Intelligence - Developed Genetic Algorithm for an existing Neural Network in C\#
+            \item[$\bullet$]Object-Oriented Programming - Created the game "Uno" in C\# 
+            \item[$\bullet$]Electronics and Interfacing - Developed an asortment of small softwares for an Arduino micro controller
+            \item[$\bullet$]System Analysis, Design and Process - 
+            \item[$\bullet$]Agile Software Development 
+            \item[$\bullet$]Data Mining 
+        \end{description}
+        \subsection{Hull College(September 2016 - June 2018) Grade - D*DD}
+        \subsubsection{Level 3 Extended Certificate in IT}
+        \begin{description}
+            \item[$\bullet$]Designed a taxi booking app.
+            \item[$\bullet$]Developed team working skills while working on a database with two other students. 
+            \item[$\bullet$]Database - Developed dashboards together with a team of students for a booking system that was created in Microsoft Access. 
+        \end{description}
+    \section{Experience}
+        \subsection{Smash Crab Studios}
+        \begin{description}
+            \item[$\bullet$]We worked on developing abilities for a mobile game.
+            \item[$\bullet$]Worked on a replica of the Snake game within a group of other students in Unity. 
+            \item[$\bullet$]Used git and source control to make a game in a team with Unity Game Engine.
+        \end{description}
+        \subsection{Fantasticon}
+        \begin{description}
+            \item[$\bullet$]Worked with team members to ensure that the venues in the event had everything that they needed.
+            \item[$\bullet$]Coordinated with team members the most efficient placement of the volunteers to be easily called for if needed.
+        \end{description}
+    \columnbreak
+    \section{Projects}
+    \subsection{EEG Controlled Prostetic}
+    Used Python to develop software that is able to control a 3D printed prosthetic 
+    by reading in real-time brain data. The software mimics an EEG brain-reading device 
+    and outputs the data similarly to what an EEG device would. 
+    The other part of the software reads in the data with the help of Sockets; 
+    the software then processes it into a graph using Matplotlib. 
+    \section{Technical Skills}
+        \subsection{Programing Languages}
+        \subsubsection{Python}
+        \subsubsection{C++}
+        \subsubsection{C\#}
+        \subsubsection{JavaScript}
+        \subsection{Markup Languages}
+            \subsubsection{HTML}
+            \subsubsection{CSS}
+            \subsubsection{LaTeX}
+        \subsection{Tools}
+            \subsubsection{Arduino}
+            \subsubsection{Adobe CC}
+            \subsubsection{Fusion 360}
+            \subsubsection{Blender}
+        \subsection{Languages}
+            \subsubsection{Swedish}
+            \subsubsection{Arabic}
+            \subsubsection{English}
+    \end{multicols}
+\end{document}
